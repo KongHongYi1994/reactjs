@@ -1,0 +1,55 @@
+.topmargin {
+    margin-top: 55px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black; 
+    position: fixed;  
+    left: 0;  
+    right: 0; 
+    top: 0; 
+    height: 55px;  
+    align-items: center;  
+}
+
+.topnav a {
+    float: left; 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.topnav .profile {
+    float: right;
+}
+
+#wrapper{
+    display: flex;
+}
+
+#left{
+     flex: 1; 
+     left:0;
+     width:150px;    
+     height:100vh;
+     top:0;
+     text-align: center;
+}
+
+#right{
+    flex: 1; 
+    width:150px;
+    right:0;
+    height:100vh;
+    top:0;
+    text-align: center;
+}
